@@ -1,0 +1,365 @@
+.body {
+    width: 375px;
+    height: 804;
+    background-color: blueviolet;
+    margin: 0;
+    border-color: cornflowerblue;
+    border: 2px solid green;
+}
+
+.container {
+    box-shadow: 0 2px 4px gray;
+    width: 60%;
+    height: 60%;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.telephone {
+    background-color: white;
+    min-width: 375px;
+    height: 804;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+.message_one {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.message_one__margin__bottom {
+    margin-bottom: 13px;
+}
+
+.header {
+    display: flex;
+    /* outline: 1px solid gray; это рамка, которая не смещает элимент*/
+    box-shadow: 0 2px 4px gray;
+    margin: 5px auto 10px auto;
+    width: 320px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.tagline {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+/* Стили для поиска */
+.search {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Строка поиска */
+form {
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    background: #F9F0DA;
+    padding-left: 15px;
+}
+
+button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #F15B42;
+    cursor: pointer;
+}
+
+/* Здесь стили для дублей */
+.double {
+    display: flex;
+    margin-top: 15px;
+}
+
+.bomus {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    /*Ширина*/
+    height: 100px;
+    /*Высота*/
+    margin: auto;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px gray;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+}
+
+.qr-code {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    margin-left: 10px;
+    box-shadow: 0 2px 4px gray;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+}
+
+.bomus p,
+.qr-code p {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: black;
+}
+
+/* Эксперемент с акциями */
+.akcia_slyd {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px gray;
+}
+
+/* Эксперемент с партнёрами */
+.partners {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px gray;
+}
+
+/* Заголовки парнёры и акции */
+.zag {
+    margin: 0px;
+    padding: 0px;
+    margin: 10px auto 6px auto;
+}
+
+.zag h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.margin_ots {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px gray;
+    width: 320px;
+    height: 75px;
+    margin: 40px auto 0 auto;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.footer_img {
+    width: 50px;
+    height: 50px;
+}
+
+.palka {
+    position: fixed;
+    width: 320px;
+    height: 75px;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.palka_2 {
+    width: 320px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uk-grid {
+    margin: 4px;
+}
+
+a.button15 {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+}
+
+a.button15:hover {
+    color: rgb(24, 24, 24);
+    border: 1px solid rgb(198, 198, 198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+a.button15:active {
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+}
+
+.telephone__feedback {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.txtarea {
+    width: 300px;
+    border: 1px solid #CCC;
+    font-size: 15px !important;
+    height: 100px;
+    border-radius: 5px;
+}
+
+/*  СТИЛИ К СТРАНИЦЕ С БОНУСЫ */
+.appeal {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.shopping_center {
+    font-weight: bold;
+}
+
+.table_header {
+    font-weight: bold;
+}
+
+.spent_bonuses {
+    margin-top: 20px;
+}
+
+.participation_promotions {
+    margin-top: 20px;
+}
+
+.table_bonus {
+    box-shadow: 0 2px 4px gray;
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.spent_bonuses {
+    box-shadow: 0 2px 4px gray;
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.participation_promotions {
+    box-shadow: 0 2px 4px gray;
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.bonus_center {
+    /* ЭТО ЦЕНТРАЛЬНЫЙ ДИВ ЗАМЕНИЛ ИМ СТАРЫЙ ТЕГ CENTER */
+    display: flex;
+    flex-direction: column;
+    /* по умолчанию свойство flex выводит элименты в таблицу. Вот это свойство flex-direction: column; таблицу заменяет списком */
+    align-items: center;
+}
+
+/* ЧАСТЬ СТИЛИЙ страницы notification */
+.sign {
+    display: inline-block;
+}
+
+
+.data {
+    margin: 5px 0 5px 10px;
+}
+
+/* ЧАСТЬ СТИЛИЙ СТРАНИЦЫ О НАС */
+.about_us {
+    width: 80%;
+    height: 60%;
+    box-shadow: 0 2px 4px gray;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.about_us__tex {
+    text-align: justify;
+    padding: 10px;
+}
+
+.feedback {
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    background-color: #bbbbbb;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+/* Центрированный div из страницы о нас ABOUT_US */
+.about_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Центральный div из страницы о обратная связь FEEDBACK */
+.feedback_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
